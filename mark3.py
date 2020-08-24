@@ -66,12 +66,6 @@ def seenByCam(row, col, grid):
     elif startingPos == 'C':
             isSeenByCam.append(True)
 
-    '''
-    print(isSeenByCam[0])
-    print(isSeenByCam[1])
-    print(isSeenByCam[2])
-    print(isSeenByCam[3])
-    '''
 
     if (isSeenByCam[0] or isSeenByCam[1] or isSeenByCam[2] or isSeenByCam[3]) == False:
         return False
@@ -226,20 +220,7 @@ for r in range(len(att)):
                             coord.append(col)
                             coord.append(step+1)
                             pathList.append(coord)
-
-
-            '''
-            if pathList[-1][2] == 0:
-                print('pathList: '+str(pathList))
-                print('Row: ' + str(pathList[0][0]))
-                print('Col: ' + str(pathList[0][1]))
-                print(-1)
-            else:
-                print('pathList: '+str(pathList))
-                print('Row: '+str(pathList[0][0]))
-                print('Col: ' + str(pathList[0][1]))
-                print('Steps: ' + str(pathList[-1][2]))
-            '''
+                            
 
             def findActualPath(roughList):
                 newPathList = []
