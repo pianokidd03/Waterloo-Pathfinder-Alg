@@ -37,42 +37,4 @@ The output should be in row major order; the order of empty cells seen if the in
 by line top-to-bottom and then left-to-right on each line. See the sample outputs for examples of
 row major order output.
 
-## Sample Input 1
-4 5
-WWWWW
-W.W.W
-WWS.W
-WWWWW
-
-## Output for Sample Input 1
--1
-2
-1
-
-## Explanation of Output for Sample Input 1
-The robot cannot move to the top left empty cell because it is blocked by walls.
-The top right empty cell can be reached in 2 steps and the bottom right empty cell can be reached
-in 1 step.
-
-## Sample Input 2
-5 7
-WWWWWWW
-WD.L.RW
-W.WCU.W
-WWW.S.W
-WWWWWWW
-
-## Output for Sample Input 2
-2
-1
-3
--1
--1
-1
-
-## Explanation of Output for Sample Input 2
-The empty cell to immediate left of the robot is seen by the camera so the robot cannot move there.
-The empty cell right below the R conveyor is also seen by the camera as conveyors do not block
-the the sight of cameras.
-Note that the robot can use the U and L conveyors to avoid the getting caught by the camera.
-If the robot moves to the R conveyor, it will become stuck forever there.
+*** For sample inputs and outputs, see page 8 of the [following document](https://www.cemc.uwaterloo.ca/contests/computing/2018/stage%201/seniorEF.pdf) (signin may be required)
