@@ -117,7 +117,6 @@ for i in range(len(att)):
     print('Col'+str(i)+': '+str(att[i]))
 print('startRow: '+str(startRow))
 print('startCol: '+str(startCol))
-print('Starring Pos is '+att[startRow][startCol])
 print('\n')
 
 def areSame(row, col, list):
@@ -242,6 +241,8 @@ for r in range(len(att)):
             for i in range(len(newPathList)):
                 if (factoryGrid[newPathList[i][0]][newPathList[i][1]] == 'U') or (factoryGrid[newPathList[i][0]][newPathList[i][1]] == 'D') or (factoryGrid[newPathList[i][0]][newPathList[i][1]] == 'L') or (factoryGrid[newPathList[i][0]][newPathList[i][1]] == 'R'):
                     totalSteps = totalSteps - 1
-            print('adjusted total steps: '+ str(totalSteps))
+            print(totalSteps)
         elif att[r][c] == 'U' and factoryGrid[r][c] == '.':
             print(-1)
+
+# Programmed by Rob Mains & Gabe Braden - 2018
