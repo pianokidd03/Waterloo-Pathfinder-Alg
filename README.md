@@ -25,10 +25,6 @@ being caught, or determine that it is impossible to move there. A step consists 
 down, left or right. Being moved by a conveyor does not count as a step.
 Input Specification
 
-The first line of input contains two integers N and M (4 ≤ N, M ≤ 100). The next N lines of
-input will each contain M characters, each of which is one of the eight characters W, ., C, S, L, R,
-U, or D.
-
 There will be exactly one S character and at least one . character. The first and last character of
 every row and column will be W.
 For 5 of the 15 marks available, there are no cameras or conveyors.
