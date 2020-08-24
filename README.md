@@ -37,4 +37,4 @@ The output should be in row major order; the order of empty cells seen if the in
 by line top-to-bottom and then left-to-right on each line. See the sample outputs for examples of
 row major order output.
 
-*** For sample inputs and outputs, see page 8 of the [following document](https://www.cemc.uwaterloo.ca/contests/computing/2018/stage%201/seniorEF.pdf) (signin may be required)
+*For sample inputs and outputs, see page 8 of the [following document](https://www.cemc.uwaterloo.ca/contests/computing/2018/stage%201/seniorEF.pdf) (signin may be required)*
